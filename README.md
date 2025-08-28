@@ -2,14 +2,6 @@
 
 A Python-based tool for analyzing market research documents and performing fact-checking and relevance/grammar validation using OpenAI's API.
 
-## Features
-
-- **Fact Checking**: Validates factual claims in market research documents
-- **Relevance & Grammar Check**: Ensures content relevance and grammatical correctness
-- **Cost Tracking**: Monitors API usage costs
-- **JSON Processing**: Handles structured data input/output
-- **Modular Design**: Separated concerns for easy maintenance
-
 ## Prerequisites
 
 - Python 3.8 or higher
@@ -91,21 +83,6 @@ The script generates:
   - Fact-checking results
   - Error handling for failed analyses
 - **Console output**: Total execution time and API costs
-
-## Configuration
-
-### Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `api_key` | Your OpenAI API key | Yes |
-
-### Customizing Analysis
-
-You can modify the analysis by:
-1. **Adding new sections** to `prompts.json`
-2. **Updating prompts** in the prompt configurations
-3. **Changing input files** in the `contexts/` directory
 
 ## Dependencies
 
