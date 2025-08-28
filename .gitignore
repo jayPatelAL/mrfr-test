@@ -5,5 +5,22 @@ build/
 dist/
 wheels/
 *.egg-info
+
 # Virtual environments
 .venv
+.env
+
+# Output directories
+output/
+output_trends/
+output_shares/
+**/output_final*.json
+
+# Input files and directories
+contexts/Trends/
+contexts/Shares/
+**/market_trends_*.json
+**/market_share_*.json
+
+# Summary files
+processing_summary.json
