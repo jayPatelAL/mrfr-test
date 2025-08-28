@@ -1,0 +1,405 @@
+{
+  "marketDrivers": {
+    "relevanceGrammarCheck": {
+      "results": [
+        {
+          "title": "Technological Advancements in Renewable Energy",
+          "irrelevant_sentences": [
+            "You are a professional post-editor of market research documents (RDs). Your role is to perform one of the following tasks only when explicitly asked in the user prompt: International Energy Agency, underscores the need for technologies that can disrupt traditional energy generation methods."
+          ],
+          "grammar_issues": [
+            {
+              "sentence": "Consequently, the production of new and efficient airborne wind energy systems is anticipated to facilitate lower operational costs and higher energy You are a professional post-editor of market research documents (RDs).",
+              "suggestion": "Consequently, the production of new and efficient airborne wind energy systems is anticipated to facilitate lower operational costs and higher energy efficiency."
+            }
+          ]
+        },
+        {
+          "title": "Government Policies and Financial Incentives",
+          "irrelevant_sentences": [
+            "You are a fact-checking analyst at a market intelligence firm. Your job is to verify the factual correctness of all statements made in research report content across various by the United Nations' Sustainable Development Goals, reflects a concerted effort to shift towards cleaner energy sources."
+          ],
+          "grammar_issues": []
+        },
+        {
+          "title": "Environmental Concerns and Climate Change Initiatives",
+          "irrelevant_sentences": [
+            "the Paris Agreement, which deems limiting global",
+            "the Paris Agreement, which deems limiting global"
+          ],
+          "grammar_issues": [
+            {
+              "sentence": "This urgency is evident in various global agreements, such as warming to below 2 degrees Celsius essential.",
+              "suggestion": "This urgency is evident in various global agreements, such as the need to limit warming to below 2 degrees Celsius."
+            },
+            {
+              "sentence": "Consequently, it seems evident that the growing awareness of these concerns will act as a catalyst for investments the Paris Agreement, which deems limiting global and innovations within the airborne wind sector, further elevating this industry in the global energy landscape.",
+              "suggestion": "Consequently, it seems evident that the growing awareness of these concerns will act as a catalyst for investments and innovations within the airborne wind sector, further elevating this industry in the global energy landscape."
+            }
+          ]
+        },
+        {
+          "title": "Market Demand for Sustainable Energy Solutions",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        }
+      ]
+    },
+    "factCheck": {
+      "results": [
+        {
+          "sentence": "Consequently, the production of new and efficient airborne wind energy systems is anticipated to facilitate lower operational costs and higher energy...",
+          "verdict": "false",
+          "reason": "Airborne wind energy systems are still in the early prototype/pilot phase and are not yet widely commercialized or proven to systematically deliver lower operational costs and higher efficiency versus conventional wind or renewable technologies."
+        },
+        {
+          "sentence": "As these advanced systems enter the market, there will likely be a profound impact on energy generation, thereby enhancing the overall viability of airborne wind energy solutions in a market that is projected to experience significant growth in the coming years.",
+          "verdict": "false",
+          "reason": "The statement overstates the likely near-term 'profound impact' of airborne wind energy, a technology that remains largely untested at commercial scale and is not yet forecasted to significantly shift the broader energy generation landscape in the immediate future."
+        },
+        {
+          "sentence": "These strategies often include financial incentives such as tax rebates, feed-in tariffs, and direct subsidies for renewable projects.",
+          "verdict": "false",
+          "reason": "While such incentives exist for mainstream renewables, there is little evidence that airborne wind energy specifically benefits from dedicated tax rebates, tariffs, or large-scale subsidies in major markets as of 2024."
+        },
+        {
+          "sentence": "The renewable energy sector is thus projected to gain immense traction, paving the way for innovations, collaborations, and overall market potential.",
+          "verdict": "false",
+          "reason": "Though renewable energy overall is growing, it is misleading to directly extend this rapid growth and policy momentum to airborne wind energy, which is still an emerging and largely experimental segment."
+        },
+        {
+          "sentence": "As energy-from-wind generation expands, countries are expected to enhance their commitments to reducing reliance on fossil fuels. the Paris Agreement, which deems limiting global...",
+          "verdict": "true",
+          "reason": ""
+        },
+        {
+          "sentence": "Furthermore, lessons drawn from renewable energy successes highlight how airborne wind technologies could alleviate some environmental burdens caused by conventional energy sources.",
+          "verdict": "false",
+          "reason": "Airborne wind energy has not yet demonstrated at scale a capacity to meaningfully alleviate environmental burdens relative to established renewables or conventional sources; this statement presumes unproven benefits."
+        },
+        {
+          "sentence": "Consequently, it seems evident that the growing awareness of these concerns will act as a catalyst for investments the Paris Agreement, which deems limiting global and innovations within the airborne wind sector, further elevating this industry in the global energy landscape.",
+          "verdict": "false",
+          "reason": "This sentence is speculative and overstates the present role and expected scale of airborne wind energy within the global energy transition given its current nascent stage."
+        },
+        {
+          "sentence": "For instance, ambitious targets set by notable entities, such as the International Renewable Energy Agency, underline the urgency of transitioning towards greener energy models.",
+          "verdict": "false",
+          "reason": "While IRENA and others set renewable targets, they almost exclusively focus on established renewables (solar, conventional wind, hydro); airborne wind energy is rarely, if ever, specifically referenced in such policy targets."
+        },
+        {
+          "sentence": "Consequently, the airborne wind energy industry could witness unprecedented growth as stakeholders align their resources to meet these emerging energy demands and preferences.",
+          "verdict": "false",
+          "reason": "The assertion of 'unprecedented growth' is highly unrealistic for airborne wind energy over the next several years, given its technology readiness level and lack of large-scale market traction."
+        }
+      ]
+    }
+  },
+  "keyPlayersAndCompetitive": {
+    "relevanceGrammarCheck": {
+      "results": [
+        {
+          "title": "NextEra Energy",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        },
+        {
+          "title": "Iberdrola",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        }
+      ]
+    },
+    "factCheck": {
+      "results": [
+        {
+          "title": "NextEra Energy",
+          "false_facts": [
+            {
+              "sentence": "NextEra Energy's emphasis on research and development might set it apart, potentially allowing it to adapt swiftly to changing market dynamics and harness emerging opportunities.",
+              "reason": "While NextEra Energy is a leader in renewable energy, there is no publicly available information indicating a specific emphasis on research and development in airborne wind energy technologies."
+            },
+            {
+              "sentence": "Through a combination of scalable wind solutions and efforts to integrate new technologies, such a position may allow NextEra Energy to effectively meet increasing energy demands while contributing to sustainability goals, thereby solidifying its presence in this burgeoning market.",
+              "reason": "NextEra Energy has a significant presence in traditional wind energy markets, but there is no verifiable evidence of its involvement in the airborne wind energy sector."
+            }
+          ]
+        },
+        {
+          "title": "Iberdrola",
+          "false_facts": [
+            {
+              "sentence": "Iberdrola's portfolio includes key offerings in renewable services, emphasizing its commitment to sustainability.",
+              "reason": "While Iberdrola is committed to sustainability and has a diverse renewable energy portfolio, there is no specific evidence of key offerings in airborne wind energy services."
+            },
+            {
+              "sentence": "This strategic alignment with advanced airborne technologies has the potential to enhance its competitiveness, while its forward-looking vision in developing cleaner energy solutions may contribute to a stronger market position globally.",
+              "reason": "There is no verifiable information indicating that Iberdrola is strategically aligned with advanced airborne wind energy technologies."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "marketNews": {
+    "relevanceGrammarCheck": {
+      "results": [
+        {
+          "title": "Global Airborne Wind Energy Market Industry Developments",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        }
+      ]
+    },
+    "factCheck": {
+      "results": [
+        {
+          "title": "Global Airborne Wind Energy Market Industry Developments",
+          "false_facts": [
+            {
+              "sentence": "In April 2024, Siemens Gamesa Renewable Energy unveiled a new airborne wind turbine technology, which could potentially enhance energy capture efficiency.",
+              "reason": "There is no evidence that Siemens Gamesa unveiled a new airborne wind turbine technology in April 2024. The company has been involved in various wind energy projects, but specific developments in airborne wind technology during that time are not documented."
+            },
+            {
+              "sentence": "Meanwhile, Vestas has been actively expanding its service offerings, with plans to open a new facility in Texas by mid-2025, aimed at bolstering its operational capabilities in the airborne sector.",
+              "reason": "There is no information available about Vestas planning to open a new facility in Texas by mid-2025 specifically aimed at the airborne wind energy sector. Vestas has been involved in various wind energy projects, but specific plans related to airborne wind energy in Texas are not documented."
+            },
+            {
+              "sentence": "In a significant development, NextEra Energy announced a strategic partnership with EDP Renewables in March 2024, focusing on joint research initiatives to advance airborne wind technologies.",
+              "reason": "There is no record of NextEra Energy announcing a strategic partnership with EDP Renewables in March 2024 specifically focusing on joint research initiatives to advance airborne wind technologies."
+            },
+            {
+              "sentence": "Despite the challenges posed by geopolitical tensions, particularly highlighted in a recent article from Offshore-Windindustry, which noted China's dominance in the wind market, the overall capacity for global wind energy grew by 117 GW in 2024, as reported by EcoWatch.",
+              "reason": "The specific figure of 117 GW growth in global wind energy capacity in 2024, as reported by EcoWatch, cannot be verified. While the wind energy sector has been growing, this exact statistic is not confirmed by available sources."
+            },
+            {
+              "sentence": "Regulatory frameworks are also evolving, with various government agencies worldwide, including the National Renewable Energy Laboratory, emphasizing the importance of innovation in wind technologies.",
+              "reason": "The National Renewable Energy Laboratory (NREL) is a U.S.-based research facility and not a regulatory agency. While NREL emphasizes innovation in wind technologies, it does not set regulatory frameworks."
+            },
+            {
+              "sentence": "As the market anticipates a compound annual growth rate of 40.76% through 2035, the interplay of technological advancements, strategic partnerships, and regulatory support will likely shape the future landscape of the airborne wind energy sector.",
+              "reason": "A compound annual growth rate (CAGR) of 40.76% through 2035 for the airborne wind energy sector is an exceptionally high figure and lacks verification from credible industry forecasts."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "marketSegmentationOverview": {
+    "relevanceGrammarCheck": {
+      "results": [
+        {
+          "title": "Airborne Wind Energy Market Platform Design Insights",
+          "irrelevant_sentences": [],
+          "grammar_corrections": []
+        },
+        {
+          "title": "Airborne Wind Energy Market Power Capacity Insights",
+          "irrelevant_sentences": [],
+          "grammar_corrections": []
+        },
+        {
+          "title": "Airborne Wind Energy Market Application Insights",
+          "irrelevant_sentences": [],
+          "grammar_corrections": [
+            {
+              "original": "are anticipated to propel growth in these arena.",
+              "corrected": "are anticipated to propel growth in these arenas."
+            }
+          ]
+        },
+        {
+          "title": "Airborne Wind Energy Market Altitude Range Insights",
+          "irrelevant_sentences": [],
+          "grammar_corrections": []
+        },
+        {
+          "title": "Airborne Wind Energy Market Regional Insights",
+          "irrelevant_sentences": [],
+          "grammar_corrections": []
+        }
+      ]
+    },
+    "factCheck": {
+      "results": [
+        {
+          "title": "Airborne Wind Energy Market Platform Design Insights",
+          "false_facts": [
+            {
+              "sentence": "Kite Systems, valued at 0.25 USD Billion in 2024, is projected to grow significantly, with expectations of reaching 10.95 USD Billion by 2035.",
+              "reason": "The projected growth figures for Kite Systems are not supported by available market data. The entire airborne wind energy market is projected to reach USD 320.7 million by 2032, making the specific projection for Kite Systems reaching USD 10.95 billion by 2035 highly improbable. ([acumenresearchandconsulting.com](https://www.acumenresearchandconsulting.com/airborne-wind-turbine-market?utm_source=openai))"
+            },
+            {
+              "sentence": "Tethered Drones, starting at 0.30 USD Billion in 2024 and estimated to reach 12.5 USD Billion by 2035, are being recognized for their potential in redefining wind energy capture methods.",
+              "reason": "The projected growth figures for Tethered Drones are not supported by available market data. The entire airborne wind energy market is projected to reach USD 320.7 million by 2032, making the specific projection for Tethered Drones reaching USD 12.5 billion by 2035 highly improbable. ([acumenresearchandconsulting.com](https://www.acumenresearchandconsulting.com/airborne-wind-turbine-market?utm_source=openai))"
+            },
+            {
+              "sentence": "Buoyant Airborne Turbines are forecasted to grow from 0.31 USD Billion in 2024 to 13.71 USD Billion in 2035, signifying their anticipated importance in effectively exploiting high-altitude wind resources.",
+              "reason": "The projected growth figures for Buoyant Airborne Turbines are not supported by available market data. The entire airborne wind energy market is projected to reach USD 320.7 million by 2032, making the specific projection for Buoyant Airborne Turbines reaching USD 13.71 billion by 2035 highly improbable. ([acumenresearchandconsulting.com](https://www.acumenresearchandconsulting.com/airborne-wind-turbine-market?utm_source=openai))"
+            }
+          ]
+        },
+        {
+          "title": "Airborne Wind Energy Market Power Capacity Insights",
+          "false_facts": [
+            {
+              "sentence": "The Small capacity range encompasses systems with a power output of 1 MW, appealing to localized and decentralized energy solutions that are often suitable for rural or remote applications.",
+              "reason": "The classification of 'Small' capacity systems as having a power output of 1 MW is misleading. Typically, small-scale wind energy systems are defined as those with capacities up to 100 kW, not as high as 1 MW. ([infiniumglobalresearch.com](https://www.infiniumglobalresearch.com/market-reports/global-airborne-wind-turbine-market?utm_source=openai))"
+            },
+            {
+              "sentence": "The Medium capacity, covering systems between 1 to 10 MW, typically serves small to mid-sized commercial operations, presenting a versatile option for enterprises seeking to enhance their sustainability efforts without substantial infrastructural investment.",
+              "reason": "The classification of 'Medium' capacity systems as ranging from 1 to 10 MW is misleading. Medium-scale wind energy systems are generally considered to have capacities between 100 kW and 1 MW, not extending up to 10 MW. ([infiniumglobalresearch.com](https://www.infiniumglobalresearch.com/market-reports/global-airborne-wind-turbine-market?utm_source=openai))"
+            },
+            {
+              "sentence": "Meanwhile, the Large capacity systems, exceeding 10 MW, arguably hold a majority share, primarily targeted toward industrial-scale applications and large energy projects, thereby significantly contributing to the overall market's expansion.",
+              "reason": "The classification of 'Large' capacity systems as exceeding 10 MW is misleading. Large-scale wind energy systems are typically defined as those with capacities above 1 MW, but specific segmentation can vary, and systems exceeding 10 MW are less common in current airborne wind energy applications. ([infiniumglobalresearch.com](https://www.infiniumglobalresearch.com/market-reports/global-airborne-wind-turbine-market?utm_source=openai))"
+            }
+          ]
+        },
+        {
+          "title": "Airborne Wind Energy Market Altitude Range Insights",
+          "false_facts": [
+            {
+              "sentence": "Low altitude operations, typically spanning from 0 to 100 meters, are increasingly utilized in various renewable projects as they are more cost-effective and simpler to deploy.",
+              "reason": "Airborne wind energy systems are designed to operate at higher altitudes, typically between 200 to 1,000 meters, to harness stronger and more consistent winds. Operating at altitudes as low as 0 to 100 meters is uncommon and less effective for these systems. ([credenceresearch.com](https://www.credenceresearch.com/report/airborne-wind-energy-awe-systems-market?utm_source=openai))"
+            },
+            {
+              "sentence": "Medium altitude systems, ranging from 100 to 1000 meters, are emerging as a favorable option for enhanced performance, catering to applications where moderate wind speeds can be harnessed effectively.",
+              "reason": "While medium altitude systems (100 to 1,000 meters) are utilized, the primary advantage of airborne wind energy systems is to access high-altitude winds, typically above 200 meters, where wind speeds are significantly stronger and more consistent. ([credenceresearch.com](https://www.credenceresearch.com/report/airborne-wind-energy-awe-systems-market?utm_source=openai))"
+            },
+            {
+              "sentence": "High altitude operations surpassing 1000 meters offer unique advantages, such as access to stronger and more consistent winds, thereby representing a growing interest for future developments.",
+              "reason": "While high-altitude operations above 1,000 meters can access stronger winds, most current airborne wind energy systems are designed to operate between 200 to 1,000 meters due to technological and regulatory constraints. ([credenceresearch.com](https://www.credenceresearch.com/report/airborne-wind-energy-awe-systems-market?utm_source=openai))"
+            }
+          ]
+        },
+        {
+          "title": "Airborne Wind Energy Market Regional Insights",
+          "false_facts": [
+            {
+              "sentence": "The regional aspect of the Global Airborne Wind Energy Market is showing progressively dynamic growth, poised to increase from a valuation of 0.86 USD Billion in 2024 to a remarkable 37.16 USD Billion by 2035.",
+              "reason": "The projected growth figures for the global airborne wind energy market are not supported by available data. The market was valued at USD 125.3 million in 2023 and is estimated to reach USD 320.7 million by 2032, making the projection of USD 37.16 billion by 2035 highly improbable. ([acumenresearchandconsulting.com](https://www.acumenresearchandconsulting.com/airborne-wind-turbine-market?utm_source=openai))"
+            },
+            {
+              "sentence": "In this panorama, North America is anticipated to thrive, escalating from 0.2 USD Billion in 2024 to 10.0 USD Billion in 2035, likely driven by established renewable energy frameworks and favorable governmental policies.",
+              "reason": "The projected growth figures for North America are not supported by available data. The entire airborne wind energy market is projected to reach USD 320.7 million by 2032, making the specific projection for North America reaching USD 10.0 billion by 2035 highly improbable. ([acumenresearchandconsulting.com](https://www.acumenresearchandconsulting.com/airborne-wind-turbine-market?utm_source=openai))"
+            },
+            {
+              "sentence": "Europe, with a starting value of 0.3 USD Billion, is expected to reach 12.0 USD Billion, reflecting a strong commitment to sustainability through investment in renewable projects.",
+              "reason": "The projected growth figures for Europe are not supported by available data. The entire airborne wind energy market is projected to reach USD 320.7 million by 2032, making the specific projection for Europe reaching USD 12.0 billion by 2035 highly improbable. ([acumenresearchandconsulting.com](https://www.acumenresearchandconsulting.com/airborne-wind-turbine-market?utm_source=openai))"
+            },
+            {
+              "sentence": "The APAC region, beginning at 0.25 USD Billion and projected to attain 8.5 USD Billion by 2035, underscores a burgeoning interest in renewable energy spurred by rapid industrialization and technological advancements.",
+              "reason": "The projected growth figures for the APAC region are not supported by available data. The entire airborne wind energy market is projected to reach USD 320.7 million by 2032, making the specific projection for the APAC region reaching USD 8.5 billion by 2035 highly improbable. ([acumenresearchandconsulting.com](https://www.acumenresearchandconsulting.com/airborne-wind-turbine-market?utm_source=openai))"
+            },
+            {
+              "sentence": "Meanwhile, South America and the Middle East and Africa, starting with 0.05 USD Billion and 0.04 USD Billion in 2024, respectively, are set to expand to 3.0 USD Billion and 1.66 USD Billion as regional energy demands escalate.",
+              "reason": "The projected growth figures for South America and the Middle East and Africa are not supported by available data. The entire airborne wind energy market is projected to reach USD 320.7 million by 2032, making the specific projections for these regions reaching USD 3.0 billion and USD 1.66 billion by 2035 highly improbable. ([acumenresearchandconsulting.com](https://www.acumenresearchandconsulting.com/airborne-wind-turbine-market?utm_source=openai))"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "faqSection": {
+    "relevanceGrammarCheck": {
+      "results": [
+        {
+          "question": "What is the projected market value of the Global Airborne Wind Energy Market from 2024 to 2035?",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        },
+        {
+          "question": "What is the expected compound annual growth rate (CAGR) for the Global Airborne Wind Energy Market during the forecast period?",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        },
+        {
+          "question": "How do the valuations of different platform designs in the Airborne Wind Energy Market compare for 2024 and 2035?",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        },
+        {
+          "question": "Which regions are expected to lead the market growth within the Global Airborne Wind Energy Market by 2035?",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        },
+        {
+          "question": "What role do key players like Siemens Gamesa and Vestas play in the Global Airborne Wind Energy Market?",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        },
+        {
+          "question": "What overall market valuation did the Global Airborne Wind Energy Market reach in 2023?",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        },
+        {
+          "question": "How significant is the valuation of the Global Airborne Wind Energy Market in South America by 2035?",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        },
+        {
+          "question": "What is the anticipated market valuation for the Middle East and Africa (MEA) segment by 2035?",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        },
+        {
+          "question": "How does the expected valuation growth vary between Kite Systems and Buoyant Airborne Turbines from 2024 to 2035?",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        },
+        {
+          "question": "What findings can be drawn regarding the overall global market valuation from 2024 to 2035?",
+          "irrelevant_sentences": [],
+          "grammar_issues": []
+        }
+      ]
+    }
+  },
+  "marketOverview": {
+    "relevanceGrammarCheck": {
+      "results": [
+        {
+          "title": "Global Airborne Wind Energy Market Overview",
+          "irrelevant_sentences": [],
+          "grammar_issues": [
+            {
+              "sentence": "The Global Airborne Wind Energy Market Size was estimated at 0.611 (USD Billion) in 2023.",
+              "suggestion": "The Global Airborne Wind Energy Market size was estimated at 0.611 billion USD in 2023."
+            },
+            {
+              "sentence": "The Global Airborne Wind Energy Market Industry is expected to grow from 0.86(USD Billion) in 2024 to 37.16 (USD Billion) by 2035.",
+              "suggestion": "The Global Airborne Wind Energy Market industry is expected to grow from 0.86 billion USD in 2024 to 37.16 billion USD by 2035."
+            },
+            {
+              "sentence": "The Global Airborne Wind Energy Market CAGR (growth rate) is expected to be around 40.76% during the forecast period (2025 - 2035).",
+              "suggestion": "The Global Airborne Wind Energy Market's CAGR (compound annual growth rate) is expected to be around 40.76% during the forecast period from 2025 to 2035."
+            }
+          ]
+        }
+      ]
+    },
+    "factCheck": {
+      "results": [
+        {
+          "title": "Global Airborne Wind Energy Market Overview",
+          "false_facts": [
+            {
+              "sentence": "As per MRFR analysis, the Global Airborne Wind Energy Market Size was estimated at 0.611 (USD Billion) in 2023.",
+              "reason": "The MRFR report indicates the market size was estimated at 0.86 USD Billion in 2024, but does not provide a specific figure for 2023. ([marketresearchfuture.com](https://www.marketresearchfuture.com/reports/airborne-wind-energy-market-29263?utm_source=openai))"
+            },
+            {
+              "sentence": "The Global Airborne Wind Energy Market Industry is expected to grow from 0.86(USD Billion) in 2024 to 37.16 (USD Billion) by 2035.",
+              "reason": "The MRFR report projects growth from 1.22 USD Billion in 2025 to 26.40 USD Billion by 2034, differing from the figures provided. ([marketresearchfuture.com](https://www.marketresearchfuture.com/reports/airborne-wind-energy-market-29263?utm_source=openai))"
+            },
+            {
+              "sentence": "The Global Airborne Wind Energy Market CAGR (growth rate) is expected to be around 40.76% during the forecast period (2025 - 2035).",
+              "reason": "The MRFR report specifies a CAGR of 40.76% for the period 2025-2034, not 2025-2035. ([marketresearchfuture.com](https://www.marketresearchfuture.com/reports/airborne-wind-energy-market-29263?utm_source=openai))"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
