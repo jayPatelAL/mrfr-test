@@ -15,6 +15,7 @@ output/
 output_trends/
 output_shares/
 **/output_final*.json
+output_final.json
 
 # Input files and directories
 contexts/Trends/
